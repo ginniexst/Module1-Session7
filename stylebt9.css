@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 25%;
+    max-width: 25%;
+    margin: 20px;
+    box-shadow: 2px 2px rgb(228, 218, 218);
+    border-radius: 4px;
+}
+
+.border {
+    border: 1px solid rgb(228, 218, 218);
+}
+
+.anhdaidien {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.flex-item .icon {
+    width: 20px;
+}
+
+.flex-container .flex-item div .position {
+    position: relative;
+}
+
+.flex-container .flex-item div .position span {
+    position: absolute;
+    left: 40px;
+    top: 3px;
+    color: red;
+}
+
+.flex-container .flex-item div .position {
+    padding-bottom: 20px;
+}
+
+.flex-item {
+    margin-bottom: 20px;
+}
+
+.btm-border {
+    border-bottom: 1px solid rgb(228, 218, 218);
+}
+
+.item-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.footer {
+    color: blue;
+    padding-bottom: 20px;
+}
+
+button {
+    color: blue;
+    border: 1px dotted blue;
+    background: none;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer button {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+.bold {
+    font-weight: bold;
+}
