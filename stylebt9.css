@@ -13,10 +13,10 @@
 
 .flex-item {
     flex: 25%;
-    max-width: 25%;
+    max-width: 23%;
     box-shadow: 2px 2px rgb(228, 218, 218);
     border-radius: 4px;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 .border {
@@ -84,14 +84,14 @@ button {
 @media (max-width: 1200px) {
     .flex-item {
         flex: 33.33%;
-        max-width: 33.33%;
+        max-width: 31%;
     }
 }
 
 @media (max-width: 991px) {
     .flex-item {
         flex: 50%;
-        max-width: 50%;
+        max-width: 46%;
     }
 }
 
