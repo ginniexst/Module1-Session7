@@ -7,12 +7,13 @@
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-item {
     flex: 25%;
     max-width: 25%;
-    margin: 20px;
+    width: 80%;
     box-shadow: 2px 2px rgb(228, 218, 218);
     border-radius: 4px;
 }
@@ -87,4 +88,32 @@ button {
 
 .bold {
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .flex-item {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .flex-item {
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width: 991px) {
+    .flex-item {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 590px) {
+    .flex-item {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
